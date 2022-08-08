@@ -1,0 +1,13 @@
+[package]
+name = "onionoo-rs"
+version = "0.0.1"
+edition = "2021"
+authors = "Fabio Roman <romanfabio@proton.me>"
+description = "Rust API wrapper for Tor Onionoo"
+license = "MIT"
+keywords = ["onionoo", "tor"]
+categories = ["api-bindings"]
+
+[dependencies]
+ureq = { version = "2.5.0", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
